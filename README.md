@@ -1,2 +1,2 @@
 # find-A-githuber
-![Project Preview](screenshot.png)
+![Project Preview](./images/screenshot.png)
