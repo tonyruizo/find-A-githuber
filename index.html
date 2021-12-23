@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <title>Find-A-Githuber</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
+      <div class="container">
+        <a href="#" class="navbar-brand">Find-A-Githuber</a>
+      </div>
+    </nav>
+    <div class="container search-container">
+      <div class="search card card-body">
+        <h1>Search Github Users</h1>
+        <p class="lead">Enter a username to fetch a user profile and repos</p>
+        <input
+          type="text"
+          class="form-control"
+          id="searchUser"
+          placeholder="Type in username"
+        />
+      </div>
+      <br />
+      <div id="profile"></div>
+    </div>
+    <footer class="mt-5 p-3 text-center bg-primary">
+      <div>Find-A-Githuber</div>
+      <span class="badge rounded-pill bg-primary"
+        ><a href="http://github.com/tonyruizo" target="_blank"
+          >@tonyruizo</a
+        ></span
+      >
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="github.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
